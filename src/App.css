@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app > .about {
+  flex-wrap: wrap;
+  max-width: 170px;
+  word-spacing: 5;
+}
+
+.app > h2 {
+  color: gray;
+  padding: 20px;
+  padding-left: 8px;
+  font-weight: 200;
+}
+
+.app > .line {
+  border: 1px solid lightgray;
+  max-width: 200px;
+}
+
+@media only screen and (max-width: 990px) {
+  .app {
+    object-fit: contain;
+  }
+  .app > h2 {
+    display: none;
+  }
+}

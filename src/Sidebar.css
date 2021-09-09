@@ -1,0 +1,25 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  flex: 0.3;
+  width: 25vw;
+  max-width: 170px;
+  border-right: 1px solid rgb(245, 245, 245);
+}
+
+.sidebar:hover {
+  background-color: lightgray;
+}
+
+.sidebar > h4 {
+  margin-top: -22px;
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 990px) {
+  .sidebar {
+    display: none;
+  }
+}

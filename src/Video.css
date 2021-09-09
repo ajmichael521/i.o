@@ -1,0 +1,142 @@
+.video {
+  max-width: 300px;
+  margin: 20px;
+  margin-left: 5px;
+  width: 300px;
+
+  padding: -100px;
+}
+
+.video__container {
+  padding: -100px;
+  padding-right: -50px;
+  height: 5vh;
+}
+
+.video__containerImage {
+  width: 300px;
+  max-width: 300px;
+  padding-right: 0;
+}
+
+.video__description {
+  display: flex;
+}
+
+.video__name {
+  margin-left: 15px;
+}
+
+.video__containerLogo {
+  max-width: 50px;
+}
+
+.video__container > span {
+  text-overflow: ellipsis;
+  flex-wrap: wrap;
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+
+  max-width: 300px;
+}
+
+.video__views {
+  margin-left: 65px;
+}
+
+.video__views > span {
+  color: rgb(160, 159, 159);
+  font-weight: 400;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.video__views > .media2 {
+  margin-top: -3px;
+  display: block;
+}
+
+.video__container > .list {
+  margin-left: 250px;
+  margin-top: 500px;
+  margin-bottom: 45px;
+}
+.video__container > .viewlist {
+  margin-left: 250px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  display: block;
+  color: lightslategray;
+}
+
+.video__container > .addlist {
+  padding-right: 50px;
+  margin-left: -15px;
+}
+
+.video__container > button {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  max-width: 300px;
+  border: white;
+  padding-left: 35px;
+}
+
+.video__container > .countlist > span {
+  margin-right: 300px;
+}
+
+@media only screen and (max-width: 990px) {
+  .video {
+    display: flex;
+    flex-direction: row;
+  }
+  .video__container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-left: 60px;
+    margin-bottom: 250px;
+  }
+  .video__containerImage {
+    width: 420px;
+    max-width: 990px;
+    margin-left: -55px;
+  }
+  .video__containerLogo {
+    margin-left: -40px;
+  }
+  .video__container > span {
+    text-overflow: ellipsis;
+    flex-wrap: wrap;
+  }
+  .video__container > .video__views {
+    margin-top: -10px;
+    margin-left: 25px;
+  }
+  .video__container > .add {
+    margin-top: 30px;
+  }
+
+  .video__container > .list {
+    margin-top: -40px;
+    margin-left: 300px;
+  }
+
+  .video__container > .addlist {
+    margin-left: -15px;
+  }
+
+  .video__container > .viewlist {
+    margin-left: 280px;
+  }
+  .video__container > button {
+    margin-top: 30px;
+    height: 20px;
+    max-height: 200px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}

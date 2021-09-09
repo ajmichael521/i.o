@@ -1,0 +1,97 @@
+.body {
+  width: 70vw;
+  float: right;
+  margin-left: 240px;
+  margin-top: -1180px;
+  height: 100vh;
+  max-width: 200px;
+}
+
+.body__subsection {
+  display: flex;
+  padding: 20px;
+  height: 10px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+}
+
+.body__subsection > button {
+  margin: 20px;
+
+  border-radius: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+}
+
+.body > .body__banner {
+  margin-top: 2px;
+  position: absolute;
+  height: 260px;
+  max-width: 80vw;
+}
+
+.body > .body__main {
+  padding: -100px;
+  margin-left: 60px;
+  margin-top: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.body > .body__main > .row0 {
+  display: flex;
+  margin-top: -55px;
+}
+
+.body > .body__main > .row1 {
+  display: flex;
+  margin-top: 295px;
+
+  margin-left: -980px;
+}
+
+.body > .body__main > .row2 {
+  display: flex;
+  margin-top: 645px;
+  margin-left: -980px;
+}
+
+@media only screen and (max-width: 990px) {
+  .body {
+    margin-top: -20px;
+    margin-left: 30px;
+  }
+
+  .body__main {
+    flex-wrap: wrap;
+  }
+  .body > .body__main > .row0 {
+    width: 990px;
+    margin-left: -100px;
+    margin-top: -460px;
+    flex-wrap: wrap;
+  }
+  .body > .body__main > .row1 {
+    margin-top: 10px;
+    margin-left: -100px;
+    flex-wrap: wrap;
+  }
+  .body > .body__main > .row2 {
+    flex-wrap: wrap;
+    margin-left: -100px;
+    margin-top: 40px;
+  }
+  .body > .body__subsection {
+    display: none;
+  }
+  .body > .body__banner {
+    display: none;
+    margin-top: 14px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    height: 100px;
+  }
+}
